@@ -1,4 +1,4 @@
- **     G-Crawler项目简介** 
+G-Crawler 项目简介  
    
 项目目标
      在力所能及的情况下，最大限度的提高 Web爬虫开发人员的生产力。
@@ -13,13 +13,14 @@
 
 
 技术选型
-● 核心框架： webmagic  Spring Framework 
+● 核心框架：Webmagic Spring boot 
 ● 任务调度：Spring + Quartz
-● 持久层框架：MyBatis 3.4
+● 持久层框架：Spring jpa 
 ● 数据库连接池：Alibaba Druid 1.0
-● 缓存框架：Redis
+● 缓存框架：Redis ehcache 
 ● 日志管理：SLF4J、Log4j2
 ● 前端框架： Bootstrap + Jquary
 
 启动说明
+
 
