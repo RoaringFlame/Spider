@@ -44,12 +44,24 @@ G-Crawler 项目简介
 关闭命令：
 (Windows)
   for /f "tokens=1-5 delims= " %%a in ('"netstat -ano|findstr "^:8086""') do taskkill /f /pid %%e
+
+
+各组件通信说明：
+
+一、Admin
+    Admin层主要负责页面抽取规则配置，页面Site配置，资源管理和任务发布
+
+二、Master
+    分布式爬虫的控制中心，接受Admin发布的任务，并分派任务给worker执行。
+    2.1、接收发布任务
+    2.2、接受Worker的注册
+三、Worker
+    真正干事情的苦逼青年，接受Master分派的任务并执行，定时向Master汇报心跳
+
   
 
 Docker镜像：
-    加班制作中。。。。。
-
-
+         制作中。。。。。.。。。。。。。。。。。。。。
 
 开发者交流群号
 
