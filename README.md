@@ -36,7 +36,7 @@ G-Crawler 项目简介
 
 启动说明：
 
-  导入项目，maven install 安装 Admin,Worker,Master 模块。 然后生成的Jar拷贝到 crawler.worker /  deploy 目录中，点击start.bat启动。
+  导入项目，maven install 安装 Admin,Worker,Master 模块。 然后生成的Jar拷贝到 crawler.worker /  deploy 目录中，记住改配置文件里面的Redis,mysql mogodb 的IP ,点击start.bat启动。
 
  （Linux & Windwos）
   java -jar worker.war --spring.config.location=worker_local.properties
