@@ -20,8 +20,8 @@ G-Crawler 项目简介
 ● 核心框架：Webmagic Spring boot 
 ● 任务调度：Spring + Quartz
 ● 持久层框架：Spring Jpa 
-● 数据库连接池：Alibaba Druid 
-● 缓存框架：Redis ehcache 
+● 数据库&连接池：Alibaba Druid MongoDB MySql
+● 缓存框架：Redis Ehcache 
 ● 日志管理：SLF4J、Log4j2
 ● 前端框架： Bootstrap + Jquary
 
