@@ -1,4 +1,4 @@
-![输入图片说明](http://git.oschina.net/uploads/images/2016/0810/142122_594505a2_302008.png "在这里输入图片标题")
+
 G-Crawler 项目简介  
    
     G-Crawler爬虫技术交流 559745472 欢迎加群讨论，快速启动！！！ 
@@ -67,4 +67,7 @@ Docker镜像：
 开发者交流群号
 
 G-Crawler爬虫技术交流  559745472 
+
+
+![输入图片说明](http://git.oschina.net/uploads/images/2016/0810/142122_594505a2_302008.png "在这里输入图片标题")
  
