@@ -24,13 +24,24 @@ G-Crawler 项目简介
 ● 日志管理：SLF4J、Log4j2
 ● 前端框架： Bootstrap + Jquary
 
+
+开发环境配置：
+
+  1.安装JDK8 
+  2.安装mysql数据库，用作存储解析规则等数据，需要创建一个“yayCrawler”的数据库实例，并执行quartz相关的数据库脚本：quartz.sql（见发布包或源码）。
+  3.安装redis
+  4.安装mongoDB用于存放结果数据
+  5.安装ftp服务器软件ftpserver（可选，用于存放下载图片）
+
 启动说明：
-   
+
+  导入项目，maven install 安装 Admin,Worker,Master 模块。 然后生成的Jar拷贝到 crawler.worker /  deploy 目录中，点击start.bat启动。
+
  （Linux & Windwos）
   java -jar worker.war --spring.config.location=worker_local.properties
  
   
-关闭说明：
+关闭命令：
 (Windows)
   for /f "tokens=1-5 delims= " %%a in ('"netstat -ano|findstr "^:8086""') do taskkill /f /pid %%e
   
