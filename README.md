@@ -24,15 +24,23 @@ G-Crawler 项目简介
 ● 日志管理：SLF4J、Log4j2
 ● 前端框架： Bootstrap + Jquary
 
-启动说明
-
-
-
+启动说明：
+   
+ （Linux & Windwos）
+  java -jar worker.war --spring.config.location=worker_local.properties
  
+  
+关闭说明：
+(Windows)
+  for /f "tokens=1-5 delims= " %%a in ('"netstat -ano|findstr "^:8086""') do taskkill /f /pid %%e
+  
+
+Docker镜像：
+    加班制作中。。。。。
+
+
 
 开发者交流群号
 
 G-Crawler爬虫技术交流  559745472 
  
-
-
