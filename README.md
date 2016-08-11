@@ -23,7 +23,7 @@ G-Crawler 项目简介
 ● 数据库&连接池：Alibaba Druid MongoDB MySql
 ● 缓存框架：Redis Ehcache 
 ● 日志管理：SLF4J、Log4j2
-● 前端框架： Bootstrap + Jquary
+● 前端框架： Bootstrap Jquery
 
 
 开发环境配置：
