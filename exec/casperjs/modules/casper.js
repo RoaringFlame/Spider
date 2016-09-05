@@ -431,7 +431,7 @@ Casper.prototype.checkStarted = function checkStarted() {
     "use strict";
     if (!this.started) {
         throw new CasperError(f("Casper is not started, can't execute `%s()`",
-                                checkStarted.caller.name));
+                                checkStarted.name));//callee.
     }
 };
 

@@ -1,11 +1,8 @@
 package yaycrawler.cache.manager;
 
-import com.google.common.collect.Maps;
 import org.ehcache.UserManagedCache;
 import org.ehcache.config.builders.UserManagedCacheBuilder;
 import org.springframework.stereotype.Component;
-
-import java.util.Map;
 
 /**
  * Created by shentong on 2016/7/13.
